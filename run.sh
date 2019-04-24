@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+INPUT_DIR=$1
+OUTPUT_DIR=$2
+
+python3 attack.py ${INPUT_DIR} ${OUTPUT_DIR}
+=======
 #!/bin/bash
 #
 # run.sh is the entry point of the submission.
@@ -15,3 +21,4 @@ python attack.py \
   --input_dir="${INPUT_DIR}" \
   --output_dir="${OUTPUT_DIR}" \
   --checkpoint_path=./models/inception_v1/inception_v1.ckpt
+>>>>>>> 32ea40f556d079d60e16fbc81495f3a16f457e5b
