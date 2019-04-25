@@ -36,7 +36,7 @@ for line in File:
 		new_image[left:right, top:bottom] += image[(left + i):(right + i), top:bottom]
 		new_image[left:right, top:bottom] += image[left:right, (top - i):(bottom - i)]
 		new_image[left:right, top:bottom] += image[left:right, (top + i):(bottom + i)]
-    new_image[left:right, top:bottom] += image[(left - i):(right - i), top:bottom]
+    		new_image[left:right, top:bottom] += image[(left - i):(right - i), top:bottom]
 		n += 4
 
 	new_image[left:right, top:bottom] /= n
